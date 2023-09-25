@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "llm-finetuning-experiments"
+version = "0.1.0"
+description = "A repository for small-scale finetuning experiments with LLMs."
+authors = ["Carl-Philipp Senze"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+argilla = "^1.16.0"
+pre-commit = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
